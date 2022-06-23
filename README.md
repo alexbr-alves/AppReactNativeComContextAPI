@@ -1,74 +1,27 @@
-<h1 align="center">
-    <img alt="ContextAPI" title="#ContextAPI" src=".images/header.png" width="100%" />
-</h1>
+Este projeto é o resultado final do curso de React Native com utilização de Context API da Alura
 
-<h4 align="center"> 
-	AluraCommerce
-</h4>
+O projeto simula um aplicativo de E-commerce que tem a opção de mudar a cor do tema (claro ou escuro),
+onde esse tema escolhido perciste localmente no aparelho usando o AsyncStorage,
+um carrinho de compras global que alimenta uma WebAPI para persistir os itens do carrinho se sairmos do aplicativo
+ou se logarmos em outro dispositivo.
 
-<p align="center">
-  <a href="#information_source-o-que-é-o-ficando-online">O que é o AluraCommerce?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
-## :information_source: O que é o AluraCommerce?
-
-O AluraCommerce é uma aplicação feita em React Native que simula um e-commerce. A ideia é usar o Context API, do react, para ver a vantagem de se ter estados globais na aplicação. Também é usado o AsyncStorage e uma Web API para ter a persistência dos dados.
-
-Esse projeto é utilizado na formação base de React Native da plataforma da Alura.
+Neste projeto foi uitlizado:
 
 
-<h1 align="center">
-    <img alt="Demonstracao" title="Demonstracao" src=".images/demo.gif" width="400px" />
-</h1>
+* Utilize o EXPO CLI
+* O Context API (Biblioteca nativa do React Native para gerenciar estados globais);
+* Utilizei uma Web API para armazenar informações de itens vistos 
+* AsyncStorage para persistir a cor do tema do aplicativo
+* Syled components
+* React Navigation 
+* React Hooks (UseState, UseEffect e UseContext)
+* Axios para gerenciar a API (Get, Post e Delete)
+* SecureTextEntry (para ocultar caracteres da senha)
 
 
-## :rocket: Tecnologias
-
-Esse projeto foi desenvolvido com a utilização das seguintes tecnologias:
-- [React Native][rn]
-- [Expo][expo]
-
-## :information_source: Como usar
-
-Para copiar e executar essa aplicação, você precisa de três pré-requisitos: [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] intalados no seu computador.
-
-No terminal, digite os comandos a seguir:
-
-### Baixar e instalar o projeto
-
-```bash
-# Clonar esse repositório
-$ git clone https://github.com/alura-cursos/react-native-context-api.git
-
-# Vá para o ropositório
-$ cd AluraCommerce
-
-# Instale as dependências
-$ npm install
-```
-
-### Executar o Mobile
-
-```bash
-# Execute em outro terminal (dentro da pasta AluraCommerce)
-$ expo start
-```
-
-### Executar a Web API
-
-```bash
-# Execute em outro terminal (dentro da pasta AluraCommerce)
-# Lembre-se de alterar o endereco ip (192.168.15.43) para o do seu computador!
-$ json-server --watch --host 192.168.15.43 db.json
-```
+***VIDEO DEMOSTRATIVO DO RESULTADO FINAL DO PROJETO*** 
 
 
 
-Espero que você utilize ao máximo deste projeto para se aprimorar! E se quiser dar um salve, estou lá no LinkedIn [André Oliveira Cunha](https://www.linkedin.com/in/andr%C3%A9-oliveira-cunha-b26b3a156/). :wave: 
+https://user-images.githubusercontent.com/103543739/175358982-1d747b51-0ec4-4374-913c-6b4abeabe38b.mp4
 
-[nodejs]: https://nodejs.org/
-[expo]: https://docs.expo.dev/
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
